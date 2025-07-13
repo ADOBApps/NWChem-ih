@@ -16,7 +16,7 @@ contexts:
 
   - comment: style keyword
     scope: keyword.operator.nwchem
-    match: \b(OPT|opt|spherical|ROOT|root|autosym|noautosym|autoz|noautoz|adjust|Vosko|LDA|PBE96|revPBE|PBEsol|LDA-SIC|LDA-SIC/2|LDA-0.4SIC|LDA-SIC/4|LDA-0.2SIC|PBE96-SIC|PBE96-SIC/2|PBE96-0.4SIC|PBE96-SIC/4|PBE96-0.2SIC|revPBE-SIC|revPBE-SIC/2|revPBE-0.4SIC|revPBE-SIC/4|revPBE-0.2SIC|PBE0|revPBE0|HSE|HF|default|DFT|ODFT|RESTRICTED|UNRESTRICTED|MULT|CG|LMBFGS|pbe0|aperiodic|cyclic|fragment|spc|pbe96|autosym|noautosym|autoz|noautoz|adjust|b3lyp|units|angstroms|print|xyz|autosym|crystal|fermi|PBE0|APERIODIC|CYCLIC|FRAGMENT|SPC|PBE96|AUTOSYM|NOAUTOSYM|AUTOZ|NOAUTOZ|ADJUST|B3LYP|UNITS|ANGSTROMS|PRINT|XYZ|AUTOSYM|CRYSTAL|FERMI)\b
+    match: \b(def2-SVP|OPT|opt|spherical|ROOT|root|autosym|noautosym|autoz|noautoz|adjust|Vosko|LDA|PBE96|revPBE|PBEsol|LDA-SIC|LDA-SIC/2|LDA-0.4SIC|LDA-SIC/4|LDA-0.2SIC|PBE96-SIC|PBE96-SIC/2|PBE96-0.4SIC|PBE96-SIC/4|PBE96-0.2SIC|revPBE-SIC|revPBE-SIC/2|revPBE-0.4SIC|revPBE-SIC/4|revPBE-0.2SIC|PBE0|revPBE0|HSE|HF|default|DFT|ODFT|RESTRICTED|UNRESTRICTED|MULT|CG|LMBFGS|pbe0|aperiodic|cyclic|fragment|spc|pbe96|autosym|noautosym|autoz|noautoz|adjust|b3lyp|units|angstroms|print|xyz|autosym|crystal|fermi|PBE0|APERIODIC|CYCLIC|FRAGMENT|SPC|PBE96|AUTOSYM|NOAUTOSYM|AUTOZ|NOAUTOZ|ADJUST|B3LYP|UNITS|ANGSTROMS|PRINT|XYZ|AUTOSYM|CRYSTAL|FERMI)\b
 
   - comment: read data
     scope: markup.bold.nwchem
