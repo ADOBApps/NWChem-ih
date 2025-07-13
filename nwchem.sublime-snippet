@@ -8,8 +8,8 @@ geometry
         ${9:alpha}   ${10:0.0}
         ${11:beta}    ${12:0.0}
         ${13:gamma}   ${14:0.0}
-    ${14:end}
     ${16:Element} ${17:0.0} ${17:0.0} ${17:0.0}
+    ${18:Element} ${19:0.0} ${19:0.0} ${19:0.0}
 end 
 ]]></content>
     <!-- Set a tabTrigger to define how to trigger the snippet -->

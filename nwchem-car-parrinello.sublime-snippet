@@ -3,27 +3,27 @@
 start cp_pspws
 title "- LDA/44Ry - constant energy Car-Parrinello simulation"
 
-geometry
+geometry 
     X   ${1:0.0}   ${2:0.0} ${3:0.0}
     X   ${4:0.0}    ${4:0.0} ${5:0.0}
-end
+end 
 
-pspw
+pspw 
     simulation_cell units angstroms
         boundary_conditions aperiodic
-        lattice
+        lattice 
             lat_a   ${6:10.00d0}
             lat_b   ${7:10.00d0}
             lat_c   ${8:10.00d0}
-        end
-        ngrid   ${9:size}  ${9:size}  ${9:size}
-    end
-    Car-Parrinello
+        end 
+        ngrid   ${9:10}  ${9:10}  ${9:10}
+    end 
+    Car-Parrinello 
         fake_mass   ${10:600.0}                   # value for the electronic fake mass (μ).
         time_step   ${11:5.0}                     # value for the Verlet integration time step (Δt).
         loop    ${12:10}  ${12:10}                      #
-    end
-end
+    end 
+end 
 set npw:minimizer ${13:2}
 task pspw energy
 task pspw Car-Parrinello
