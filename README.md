@@ -13,6 +13,7 @@ In addition to syntax highlighting, we have created a few sublime snippets to ma
 
 1. To quickly add a geometry.  To use it type **geometry** followed by <kbd>Tab</kbd> to autocomplete the geometry section declaration.
 2. To quickly add a PSeudopotential Plane-Wave section.  To use it type **pspw** followed by <kbd>Tab</kbd> to autocomplete.
+3. To quickly add a PSeudopotential Plane-Wave section with Car-Parrinello.  To use it type **cp** followed by <kbd>Tab</kbd> to autocomplete.
 
 _More snippets can easily be added by copying one of the .sublime-snippet files and then modifying it._ Go [here](http://sublimetext.info/docs/en/extensibility/snippets.html) for more information on snippets. 
 

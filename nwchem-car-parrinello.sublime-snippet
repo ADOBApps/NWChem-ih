@@ -30,7 +30,6 @@ task pspw Car-Parrinello
 ]]></content>
     <!-- Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>cp</tabTrigger>
-    <tabTrigger>car-parrinello</tabTrigger>
     <!-- Set a scope to limit where the snippet will trigger -->
     <scope>text.nwchem</scope>
     <description>NWChem PWPW section</description>
