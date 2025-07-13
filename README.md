@@ -11,9 +11,10 @@ You may have to close sublime and open it again for the changes to take effect.
 
 In addition to syntax highlighting, we have created a few sublime snippets to make our lives a little easier:
 
-1. To quickly add a geometry.  To use it type **geometry** followed by <kbd>Tab</kbd> to autocomplete the geometry section declaration.
-2. To quickly add a PSeudopotential Plane-Wave section.  To use it type **pspw** followed by <kbd>Tab</kbd> to autocomplete.
-3. To quickly add a PSeudopotential Plane-Wave section with Car-Parrinello.  To use it type **cp** followed by <kbd>Tab</kbd> to autocomplete.
+1. To quickly add a geometry. To use it type **geometry** followed by <kbd>Tab</kbd> to autocomplete the geometry section declaration.
+2. To quickly add a PSeudopotential Plane-Wave section. To use it type **pspw** followed by <kbd>Tab</kbd> to autocomplete.
+3. To quickly add a PSeudopotential Plane-Wave section with Car-Parrinello. To use it type **cp** followed by <kbd>Tab</kbd> to autocomplete.
+4. To quickly add a Pseudopotential plane-wave density functional theory.To use it type **nwpw** followed by <kbd>Tab</kbd> to autocomplete.
 
 _More snippets can easily be added by copying one of the .sublime-snippet files and then modifying it._ Go [here](http://sublimetext.info/docs/en/extensibility/snippets.html) for more information on snippets. 
 

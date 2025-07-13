@@ -32,5 +32,5 @@ task pspw Car-Parrinello
     <tabTrigger>cp</tabTrigger>
     <!-- Set a scope to limit where the snippet will trigger -->
     <scope>text.nwchem</scope>
-    <description>NWChem PWPW section</description>
+    <description>NWChem Car-Parrinello section</description>
 </snippet>

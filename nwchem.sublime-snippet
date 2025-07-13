@@ -1,5 +1,7 @@
 <snippet>
     <content><![CDATA[
+start geo_cal
+title "- simulation"
 geometry 
     ${2:system}
         ${3:lat_a}   ${4:0.0}
