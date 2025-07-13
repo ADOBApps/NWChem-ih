@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-start cp_pspws
-title "- LDA/44Ry - constant energy Car-Parrinello simulation"
+start test_nwpw
+title "- Pseudopotential plane-wave density functional theory simulation"
 
 geometry 
     X   ${1:0.0}   ${2:0.0} ${3:0.0}
@@ -13,22 +13,17 @@ nwpw
         ngrid   ${6:10}  ${6:10}  ${6:10}
     end
     ewald_ncut  ${7:8}                   
-    # value for the number of unit cells to sum over (in each direction) for the real space part of the Ewald summation. Note Ewald summation is only used if the simulation_cell is periodic..
 end
 
 set nwpw:minimizer ${8:2}
 
-#turns of unit cell checking for wavefuntions
 set nwpw:psi_nolattice  .true.
-
-# The PSPW module using the DRIVER geometry optimizer can optimize a crystal unit cell. Currently this type of optimization works only if the geometry is specified in fractional coordinates. The following SET directive is used to tell the DRIVER geometry optimizer to optimize the crystal unit cell in addition to the geometry.
 
 driver
     clear
     maxiter ${9:10}
 end
 
-# this option tells driver to optimize the unit cell
 set includestress .true.
 
 task pspw optimize
