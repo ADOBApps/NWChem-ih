@@ -28,7 +28,7 @@ contexts:
 
   - comment: fix and unfix
     scope: markup.quote.nwchem
-    match: \b(true|false|includestress|minimizer|psi_nolattice|optimize|au|paw|energy|lcao_iterations|xpbe96|cpbe96)\b
+    match: \b(true|false|stress_numerical|includestress|minimizer|psi_nolattice|optimize|au|paw|energy|lcao_iterations|xpbe96|cpbe96)\b
     captures:
       1 : string.quoted.double.nwchem
 
