@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-start cp_pspws
 title "- LDA/44Ry - constant energy Car-Parrinello simulation"
+start cp_pspws
 
 geometry 
     X   ${1:0.0}   ${2:0.0} ${3:0.0}
