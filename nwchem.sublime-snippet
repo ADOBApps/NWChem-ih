@@ -1,11 +1,20 @@
 <snippet>
     <content><![CDATA[
-fix ${1:ID} ${2:group-ID} ${3:style} ${4:args}
-unfix ${1:ID}
+geometry ${1:ID}
+    ${2:system}
+        ${3:lat_a}   ${4:0.0}
+        ${5:lat_b}   ${6:0.0}
+        ${7:lat_c}   ${8:0.0}
+        ${9:alpha}   ${10:0.0}
+        ${11:beta}    ${12:0.0}
+        ${13:gamma}   ${14:0.0}
+    ${14:end}
+    ${16:Element} ${17:0.0} ${17:0.0} ${17:0.0}
+end ${1:ID}
 ]]></content>
     <!-- Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>fix</tabTrigger> 
+    <tabTrigger>geometry</tabTrigger> 
     <!-- Set a scope to limit where the snippet will trigger -->
     <scope>text.nwchem</scope>
-    <description>NWChem fix command</description>
+    <description>NWChem geometry command</description>
 </snippet>

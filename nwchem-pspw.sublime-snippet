@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+pspw 
+    simulation_cell units angstroms
+        boundary_conditions aperiodic
+        SC  10.0    ngrid   ${1:size}  ${1:size}  ${1:size}
+    end 
+    xc pbe96
+end 
+
+set npw:minimizer 2
+task pspw optimize
+]]></content>
+    <!-- Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>pspw</tabTrigger> 
+    <!-- Set a scope to limit where the snippet will trigger -->
+    <scope>text.nwchem</scope>
+    <description>NWChem PWPW section</description>
+</snippet>

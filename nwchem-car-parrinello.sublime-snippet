@@ -1,0 +1,37 @@
+<snippet>
+    <content><![CDATA[
+start cp_pspws
+title "- LDA/44Ry - constant energy Car-Parrinello simulation"
+
+geometry
+    X   ${1:0.0}   ${2:0.0} ${3:0.0}
+    X   ${4:0.0}    ${4:0.0} ${5:0.0}
+end
+
+pspw
+    simulation_cell units angstroms
+        boundary_conditions aperiodic
+        lattice
+            lat_a   ${6:10.00d0}
+            lat_b   ${7:10.00d0}
+            lat_c   ${8:10.00d0}
+        end
+        ngrid   ${9:size}  ${9:size}  ${9:size}
+    end
+    Car-Parrinello
+        fake_mass   ${10:600.0}                   # value for the electronic fake mass (μ).
+        time_step   ${11:5.0}                     # value for the Verlet integration time step (Δt).
+        loop    ${12:10}  ${12:10}                      #
+    end
+end
+set npw:minimizer ${13:2}
+task pspw energy
+task pspw Car-Parrinello
+]]></content>
+    <!-- Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>cp</tabTrigger>
+    <tabTrigger>car-parrinello</tabTrigger>
+    <!-- Set a scope to limit where the snippet will trigger -->
+    <scope>text.nwchem</scope>
+    <description>NWChem PWPW section</description>
+</snippet>

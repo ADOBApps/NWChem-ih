@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
     <key>name</key>
-    <string>lammps-comments</string>
+    <string>nwchem-comments</string>
     <key>scope</key>
-    <string>text.lammps</string>
+    <string>text.nwchem</string>
     <key>settings</key>
     <dict>
         <key>shellVariables</key>
