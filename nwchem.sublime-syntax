@@ -34,7 +34,7 @@ contexts:
 
   - comment: fix commands
     scope: string.quoted.other
-    match: \b()\b
+    match: \b(bond|constant)\b
 
   - comment: label commands
     scope: keyword.operator.nwchem
